@@ -38,25 +38,28 @@
 
         <div class="popup text-center">
 
-            <h2 class="text-center">
+            <h2 class="">
                 Welcome to the Hive!
             </h2>
             <h3>
                 Let’s get you started.
             </h3>
 
-            <form action="enviar.php">
+            <form action="register.html" id="form1">
                 <input type="text" placeholder="Enter your name" 
-                class="nombre" name="name" pattern="^[A-Za-z]+$" maxlength="35" id="campo">
+                class="nombre" name="name" pattern="^[A-Za-z]+$" maxlength="20" id="campo" required>
                 <input type="email" placeholder="Enter your email"
-                 name="email" id="campo1">
+                 name="email" id="campo1" required>
                 <input type="password" placeholder="Enter your password"
-                name="password">
+                name="password" required>
+
+                <input class="boton1" type="submit" value="Register" onclick="validar('campo')">
+                <!-- <a href="">Register</a> -->
+                </input>
+
             </form>
 
-            <button class="boton1" onclick="validar('campo')">
-                <a href="#">Register</a>
-            </button>
+
 
             <div class="d-flex align-items-baseline">
                 <h2 id="textlog">Already have an account?</h2>
