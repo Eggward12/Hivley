@@ -77,12 +77,13 @@ input{
     margin-top: 15%;
 }
 
+/* -------------------Estilos pagina register.html---------------- */
 
 .floatmenu{
     background-color: #FFA410;
     padding: 4px 20px;
-    width: 80%;
-    margin-bottom: 5%;
+    width: 90%;
+    margin-bottom: 20%;
     border-radius: 20px;
 }
 .floatmenu h5{
@@ -91,4 +92,55 @@ input{
 }
 .floatmenu img{
     padding: 5px 0px;
+}
+
+.container #buscar{
+    width: 90%;
+    background-color: #FFA410;
+    margin-top: 25%;
+    color: black;
+    margin-left: 5%;
+}
+.container #buscar::placeholder{
+    color: black;
+    font-weight: 600;
+}
+.main h4,.main2 h4{
+    color: #FFA410;
+    font-weight: 600;
+}
+.main h5{
+    color: white;
+    font-size: 15px;
+}
+.main h6{
+    color:white;
+    font-size: 8px;
+    font-weight: 600;
+}
+.main .figura{
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 39%;
+    position: absolute;
+    height: 20px;
+    top: 3%;
+    right: 16%;
+    border-radius: 10px;
+}
+.main .estrella{
+    margin: 1px -1px 3px 5px;
+}
+.main .figura h6{
+    color: #FFA410;
+    margin: 4px 0px 0px 3px;
+    font-size: 11px;
+}
+.main button{
+    background-color: #FFA410;
+    width: 58%;
+    border: none;
+    margin: 4% 0 0 20%;
+    padding: 3% 3%;
+    border-radius: 25px;
+    font-weight: 600;
 }
