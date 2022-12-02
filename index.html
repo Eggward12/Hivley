@@ -46,13 +46,19 @@
             </h3>
 
             <form action="register.html" id="form1">
-                <input type="text" placeholder="Enter your name" 
-                class="nombre" name="name" pattern="^[A-Za-z]+$" maxlength="20" id="campo" required>
-                <input type="email" placeholder="Enter your email"
-                 name="email" id="campo1" required>
-                <input type="password" placeholder="Enter your password"
-                name="password" required>
-
+                <div class="col-12">
+                    <input type="text" placeholder="Enter your name" 
+                    class="nombre" name="name" pattern="^[A-Za-z]+$" maxlength="20" id="campo" required>
+                </div>
+                <div class="col-12">
+                    <input type="email" placeholder="Enter your email"
+                    name="email" id="campo1" required>
+                </div>
+                <div class="col-12">
+                    <input type="password" placeholder="Enter your password"
+                    name="password" required>
+                </div>
+                
                 <input class="boton1" type="submit" value="Register" onclick="validar('campo')">
                 <!-- <a href="">Register</a> -->
                 </input>
@@ -60,8 +66,8 @@
             </form>
 
 
-
-            <div class="d-flex align-items-baseline">
+        
+            <div class="d-flex align-items-baseline justify-content-center">
                 <h2 id="textlog">Already have an account?</h2>
                 <a href="#" class="mt-3 login">Sign in</a>
             </div>
